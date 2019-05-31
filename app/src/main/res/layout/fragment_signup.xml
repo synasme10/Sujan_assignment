@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.SignupFrag">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Form"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:layout_margin="20dp"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name :"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_margin="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etUserFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20sp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name :"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_margin="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etUserLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20sp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username :"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_margin="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20sp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_margin="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="italic|bold"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+
+
+
+</ScrollView>

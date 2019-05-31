@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Additem">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/ivItem"
+        android:layout_marginLeft="100dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:id="@+id/btnSelectimg"
+        android:layout_below="@+id/ivItem"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"
+        android:background="@drawable/round_button"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+
+        android:text="Upload Image"
+        android:id="@+id/btn_upimg"
+        android:layout_below="@+id/btnSelectimg"
+        android:textStyle="bold|italic"
+
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Item name"
+        android:id="@+id/etItemname"
+        android:layout_below="@id/btn_upimg"
+        android:textStyle="bold|italic"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:hint="Enter Item Price"
+        android:id="@+id/etItemprice"
+        android:layout_below="@+id/etItemname"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Image name"
+        android:id="@+id/tvItemimgname"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/etItemprice"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Item Description"
+        android:textStyle="bold|italic"
+        android:id="@+id/etItemdesc"
+        android:layout_below="@+id/tvItemimgname"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:textStyle="bold|italic"
+        android:id="@+id/btnAddItem"
+        android:background="@drawable/round_button"
+        android:layout_below="@+id/etItemdesc"
+        android:layout_margin="10dp"/>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
